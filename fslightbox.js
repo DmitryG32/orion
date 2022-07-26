@@ -805,7 +805,7 @@ function e() {
             }),
             (b = function () {
               document.body.offsetHeight > innerHeight &&
-                (document.body.style.marginRight = 6 + "px");
+                (document.body.style.marginRight = 7 + "px");
             }),
             (g.removeRecompense = function () {
               document.body.style.removeProperty("margin-right");
