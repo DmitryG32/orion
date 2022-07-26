@@ -168,11 +168,3 @@ function _(e) {
     .addEventListener("click", function () {
       fsLightboxInstances.video.open(0);
     });
-
-fsLightboxInstances["gallery"].props.onOpen = () => {
-  const body =
-    (document.querySelector("body").style.paddingRight =
-    "7px".style.marginRight =
-      "0px");
-  console.log(body.style.marginRight);
-};
