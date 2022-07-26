@@ -170,6 +170,6 @@ function _(e) {
     });
 
 fsLightboxInstances["gallery"].props.onOpen = () => {
-  const body = (document.querySelector("body").style.marginRight = "0px");
+  const body = (document.querySelector("body").style.marginRight = "6px");
   console.log(body.style.marginRight);
 };
