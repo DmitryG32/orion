@@ -816,7 +816,7 @@
               n = e.core.scrollbarRecompensor;
             function o() {
               document.body.offsetHeight > innerHeight &&
-                (document.body.style.marginRight = 6 + "px");
+                (document.body.style.marginRight = "6px");
               /* document.body.style.marginRight = t.scrollbarWidth + "px"; */
             }
             (n.addRecompense = function () {
