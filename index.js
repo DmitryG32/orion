@@ -227,15 +227,13 @@ function M(e) {
       {
         rule: "function",
         validator: function () {
-          console.log("Вот он = ", b);
           var e = b.inputmask.unmaskedvalue();
-          return console.log(S), 10 === e.length;
+          return 10 === e.length;
         },
         errorMessage: "Введите корректный телефон",
       },
     ])
     .onSuccess(function (e) {
-      console.log("Validation passes and form submitted", e);
       var t,
         o = document.createElement("div"),
         n =
@@ -253,8 +251,7 @@ function M(e) {
         var e;
         4 === r.readyState &&
           200 === r.status &&
-          (console.log("Отправлено"),
-          o.remove(),
+          (o.remove(),
           ((e = document.createElement("div")).innerHTML =
             "Ваша заявка успешно отправлена!"),
           (e.style.margin = "0 auto"),
@@ -266,7 +263,6 @@ function M(e) {
           (e.style.marginTop = "10px"),
           (e.style.textAlign = "center"),
           S.append(e),
-          console.log("Отправлено"),
           setTimeout(function () {
             e.remove();
           }, 1e4));
@@ -284,15 +280,13 @@ function M(e) {
       {
         rule: "function",
         validator: function () {
-          console.log("Вот он = ", k);
           var e = k.inputmask.unmaskedvalue();
-          return console.log(_), 10 === e.length;
+          return 10 === e.length;
         },
         errorMessage: "Введите корректный телефон",
       },
     ])
     .onSuccess(function (e) {
-      console.log("Validation passes and form submitted", e);
       var t,
         o = document.createElement("div"),
         n =
@@ -310,8 +304,7 @@ function M(e) {
         var e;
         4 === r.readyState &&
           200 === r.status &&
-          (console.log("Отправлено"),
-          o.remove(),
+          (o.remove(),
           ((e = document.createElement("div")).innerHTML =
             "Ваша заявка успешно отправлена!"),
           (e.style.margin = "0 auto"),
@@ -323,7 +316,6 @@ function M(e) {
           (e.style.marginTop = "10px"),
           (e.style.textAlign = "center"),
           _.append(e),
-          console.log("Отправлено"),
           setTimeout(function () {
             e.remove();
           }, 1e4));
@@ -341,15 +333,13 @@ function M(e) {
       {
         rule: "function",
         validator: function () {
-          console.log("Вот он = ", L);
           var e = L.inputmask.unmaskedvalue();
-          return console.log(w), 10 === e.length;
+          return 10 === e.length;
         },
         errorMessage: "Введите корректный телефон",
       },
     ])
     .onSuccess(function (e) {
-      console.log("Validation passes and form submitted", e);
       var t,
         o = document.createElement("div"),
         n =
@@ -367,8 +357,7 @@ function M(e) {
         var e;
         4 === r.readyState &&
           200 === r.status &&
-          (console.log("Отправлено"),
-          o.remove(),
+          (o.remove(),
           ((e = document.createElement("div")).innerHTML =
             "Ваша заявка успешно отправлена!"),
           (e.style.margin = "0 auto"),
@@ -380,7 +369,6 @@ function M(e) {
           (e.style.marginTop = "10px"),
           (e.style.textAlign = "center"),
           w.append(e),
-          console.log("Отправлено"),
           setTimeout(function () {
             e.remove();
           }, 1e4));
@@ -411,16 +399,12 @@ function M(e) {
       {
         rule: "function",
         validator: function () {
-          return (
-            console.log("Вот он телефон = ", E),
-            10 === E.inputmask.unmaskedvalue().length
-          );
+          return 10 === E.inputmask.unmaskedvalue().length;
         },
         errorMessage: "Введите корректный телефон",
       },
     ])
     .onSuccess(function (e) {
-      console.log("Validation passes and form submitted", e);
       var t,
         o = document.createElement("div"),
         n =
@@ -438,8 +422,7 @@ function M(e) {
         var e;
         4 === r.readyState &&
           200 === r.status &&
-          (console.log("Отправлено"),
-          o.remove(),
+          (o.remove(),
           ((e = document.createElement("div")).innerHTML =
             "Ваша заявка успешно отправлена!"),
           (e.style.margin = "0 auto"),
