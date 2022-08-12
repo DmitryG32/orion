@@ -7,7 +7,7 @@ $title = 'Тема письма';
 
 $c = true;
 // Формирование самого письма
-$title = "Заголовок письма";
+$title = "Данные пользователя";
 foreach ($_POST as $key => $value) {
   if ($value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject") {
     $body .= "
@@ -32,16 +32,15 @@ try {
 
   // Настройки вашей почты
   $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-  $mail->Username   = 'dmitrygorbach44@gmail.com'; // Логин на почте
-  $mail->Password   = 'tmchljxyisqtxitf'; // Пароль на почте
+  $mail->Username   = 'potolkiorionsamara@gmail.com'; // Логин на почте
+  $mail->Password   = 'twxybwwpblsqwjxk'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
-  $mail->setFrom('89874530087@mail.ru', 'Заявка с сайта Orion'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('potolki-orion@mail.ru', 'Заявка с сайта Orion'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('dmitrygorbach44@gmail.com');
-  $mail->addAddress('89874530087@mail.ru');
+  $mail->addAddress('potolkiorionsamara@gmail.com');
 
   // Отправка сообщения
   $mail->isHTML(true);
